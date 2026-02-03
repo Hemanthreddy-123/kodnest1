@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard | NeonGrid</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html" class="logo">NEON<span style="color:var(--secondary-color)">GRID</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="leaderboard.html" class="active">Leaderboard</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="leaderboard" style="padding-top: 120px; align-items: start;">
+        <h1 class="neon-text-alt" style="text-align: center; margin-bottom: 30px;">Hall of Fame</h1>
+        <p style="text-align: center; margin-bottom: 50px; color: #ccc;">Top players from Neon Space Dodge</p>
+
+        <div style="max-width: 800px; margin: 0 auto; width: 100%;">
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Player</th>
+                            <th>Score</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody id="leaderboard-body">
+                        <!-- Scores will be injected here -->
+                    </tbody>
+                </table>
+                <div id="no-scores" style="text-align: center; padding: 20px; color: #777; display: none;">No scores
+                    yet. go play!</div>
+            </div>
+
+            <div style="text-align: center; margin-top: 30px;">
+                <a href="play.html" class="btn-neon">Play & Beat Logic</a>
+                <button id="clear-scores" class="btn-neon"
+                    style="border-color: #ff3333; color: #ff3333; margin-left: 20px; box-shadow: 0 0 10px #ff3333;">Clear
+                    Scores</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+    <script src="js/leaderboard.js"></script>
+</body>
+
+</html>

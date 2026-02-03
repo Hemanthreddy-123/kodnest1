@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | NeonGrid</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html" class="logo">NEON<span style="color:var(--secondary-color)">GRID</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="leaderboard.html">Leaderboard</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="contact-page" style="padding-top: 120px; align-items: center;">
+        <h1 class="neon-text-alt" style="text-align: center; margin-bottom: 30px;">Contact Us</h1>
+
+        <div
+            style="width: 100%; max-width: 600px; background: var(--card-bg); padding: 40px; border-radius: 15px; border: 1px solid var(--primary-color);">
+            <form onsubmit="event.preventDefault(); alert('Message Sent! (Simulation)'); this.reset();">
+                <div class="form-group">
+                    <label
+                        style="display: block; margin-bottom: 10px; color: var(--primary-color); font-family: var(--font-gaming);">Name</label>
+                    <input type="text" placeholder="Enter your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label
+                        style="display: block; margin-bottom: 10px; color: var(--primary-color); font-family: var(--font-gaming);">Email</label>
+                    <input type="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label
+                        style="display: block; margin-bottom: 10px; color: var(--primary-color); font-family: var(--font-gaming);">Message</label>
+                    <textarea rows="5" placeholder="Your message here..." required></textarea>
+                </div>
+
+                <div style="text-align: center; margin-top: 20px;">
+                    <button type="submit" class="btn-neon" style="width: 100%;">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer
+        style="padding: 20px; text-align: center; background: rgba(0,0,0,0.8); border-top: 1px solid var(--primary-color);">
+        <p>&copy; 2026 NeonGrid Gaming.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

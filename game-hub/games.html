@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Library | NeonGrid</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html" class="logo">NEON<span style="color:var(--secondary-color)">GRID</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="games.html" class="active">Games</a></li>
+            <li><a href="leaderboard.html">Leaderboard</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="games-page" style="padding-top: 120px; align-items: start;">
+        <h1 class="neon-text" style="text-align: center; margin-bottom: 50px;">Choose Your Challenge</h1>
+
+        <div class="games-grid">
+            <div class="game-card">
+                <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80"
+                    alt="Neon Space Dodge" class="game-image">
+                <div class="game-info">
+                    <h3>Neon Space Dodge</h3>
+                    <p>Avoid the raining plasma blocks. Test your reflexes!</p>
+                    <br>
+                    <a href="play.html" class="btn-neon">Play Now</a>
+                </div>
+            </div>
+
+            <div class="game-card" style="opacity: 0.7;">
+                <img src="https://images.unsplash.com/photo-1614680376593-902f74cf0d41?auto=format&fit=crop&q=80"
+                    alt="Cyber Clicker" class="game-image">
+                <div class="game-info">
+                    <h3>Cyber Clicker</h3>
+                    <p>Hacking simulator. Click to break encryption.</p>
+                    <br>
+                    <button class="btn-neon" disabled style="border-color: #555; color: #555; box-shadow: none;">Coming
+                        Soon</button>
+                </div>
+            </div>
+
+            <div class="game-card" style="opacity: 0.7;">
+                <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&q=80"
+                    alt="Retro Racer" class="game-image">
+                <div class="game-info">
+                    <h3>Retro Racer</h3>
+                    <p>Outrun the grid. Race against time.</p>
+                    <br>
+                    <button class="btn-neon" disabled style="border-color: #555; color: #555; box-shadow: none;">Coming
+                        Soon</button>
+                </div>
+            </div>
+
+            <div class="game-card" style="opacity: 0.7;">
+                <img src="https://images.unsplash.com/photo-1551103782-8ab07afd45c1?auto=format&fit=crop&q=80"
+                    alt="Pixel Quest" class="game-image">
+                <div class="game-info">
+                    <h3>Pixel Quest</h3>
+                    <p>A classic RPG adventure in a cyberpunk world.</p>
+                    <br>
+                    <button class="btn-neon" disabled style="border-color: #555; color: #555; box-shadow: none;">Coming
+                        Soon</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer
+        style="padding: 20px; text-align: center; background: rgba(0,0,0,0.8); border-top: 1px solid var(--primary-color);">
+        <p>&copy; 2026 NeonGrid Gaming.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
